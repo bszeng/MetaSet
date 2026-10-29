@@ -36,11 +36,6 @@ MetaSet addresses a key limitation of applying deep reinforcement learning (DRL)
 - PyTorch
 - NumPy, Matplotlib, Pandas
 
-Install the dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Quick Start
 
