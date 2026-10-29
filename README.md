@@ -27,7 +27,7 @@ MetaSet addresses a key limitation of applying deep reinforcement learning (DRL)
 │   ├── metaset_ddpg.py        # MetaSet DDPG agent, Reptile meta-training, zero-shot evaluation
 │   └── README.md              # Detailed package documentation
 ├── Learning Curves/           # Recorded training curves (42 .npy files, used by the notebook)
-└── metaset_results/           # Meta-trained checkpoint (metaset_meta.pt)
+└── metaset_inits/             # Meta-trained checkpoint (metaset_meta.pt)
 ```
 
 ## Environment Setup
@@ -106,7 +106,7 @@ The six test configurations `(M, L, K)` are:
 
 ## Data
 
-`Learning Curves/` contains 42 `.npy` files (about 32 MB), each of shape `[10 episodes, 10000 steps]`, and `metaset_results/metaset_meta.pt` is the provided meta-trained checkpoint. These are included so that the comparison notebook runs out of the box. They can be regenerated from the training scripts.
+`Learning Curves/` contains 42 `.npy` files (about 32 MB), each of shape `[10 episodes, 10000 steps]`, and `metaset_inits/metaset_meta.pt` is the provided meta-trained checkpoint. These are included so that the comparison notebook runs out of the box. They can be regenerated from the training scripts.
 
 ## Acknowledgements
 
