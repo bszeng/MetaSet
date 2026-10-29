@@ -32,9 +32,10 @@ MetaSet addresses a key limitation of applying deep reinforcement learning (DRL)
 
 ## Environment Setup
 
-- Python 3.8+
-- PyTorch
-- NumPy, Matplotlib, Pandas
+- Python 3.8.20
+- PyTorch 1.10.0
+- NumPy 1.24.3
+- Matplotlib 3.7.2
 
 
 ## Quick Start
