@@ -53,6 +53,10 @@ python main_Benchmark.py \
 
 ### 2. MetaSet: cross-size meta-training
 
+## Training configurations
+
+The four training configurations `(M, L, K)` are: 2x4x2,4x8x4,8x16x8,4x8x2
+
 ```bash
 # Meta-training configuration set is given as MxLxK entries
 python train_metaset.py --ris-root . --meta-tasks 2x4x2,4x8x4,8x16x8,4x8x2 --seed 0 --out metaset_inits/s0
